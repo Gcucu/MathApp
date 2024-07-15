@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	box-sizing: border-box;
+}
+
+body{
+	background: #001e4d;
+}
+
+.content{
+	background: #fff;
+	width: 100%;
+	max-width: 1000px;
+	margin: 100px auto 0;
+	border-radius: 10px;
+	padding: 50px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+a {
+    color: #fff;
+	text-decoration: none;
+	background-color:#001e4d;
+	text-decoration:none;
+	cursor:pointer;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+a:hover {
+    background-color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+a.active {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+input {
+  padding: 3px;
+  width: 2em;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.colorTab1 {
+	width: 40px;
+	height: 40px;
+	aspect-ratio: auto;
+	background-color: #001e4d;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+
+.colorTab2{
+	width: 40px;
+	height: 40px;
+	background-color: brown;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+.colorTabScad {
+	width: 40px;
+	height: 40px;
+	background-color: brown;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+	opacity: .4;
+}
+
+.colorTabNull {
+	width: 40px;
+	height: 40px;
+}
+
+.first {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.first {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.third {
+	display: flex;
+	flex-direction: column;
+}
+
+.buton {
+	margin-bottom: 10px;
+	padding:10px 20px;
+	background: #001e4d;
+	color:#fff;
+	border:none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor:pointer;
+}
