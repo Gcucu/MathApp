@@ -20,7 +20,6 @@ body{
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
-	
 }
 
 a {
@@ -50,6 +49,10 @@ a.active {
   color: white;
 }
 
+.hidden {
+	display: none;
+}
+
 input {
   padding: 3px;
   width: 2em;
@@ -61,6 +64,10 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+td {
+	color: orange;
 }
 
 .colorTab1 {
@@ -108,7 +115,7 @@ input::-webkit-inner-spin-button {
 	padding: 20px;
 }
 
-.first {
+.second {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -117,6 +124,8 @@ input::-webkit-inner-spin-button {
 .third {
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
+	padding: 20px;
 }
 
 .buton {
@@ -128,4 +137,11 @@ input::-webkit-inner-spin-button {
 	border-radius: 5px;
 	font-size: 18px;
 	cursor:pointer;
+}
+
+input:in-range {
+	background: #C2DDFD;
+}
+input:out-of-range {
+	background: #E37D76;
 }
